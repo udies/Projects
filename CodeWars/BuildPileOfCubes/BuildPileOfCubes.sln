@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildPileOfCubes", "BuildPileOfCubes\BuildPileOfCubes.csproj", "{ADD10868-E8D0-4651-BECF-2D09C1F1DB44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADD10868-E8D0-4651-BECF-2D09C1F1DB44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADD10868-E8D0-4651-BECF-2D09C1F1DB44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADD10868-E8D0-4651-BECF-2D09C1F1DB44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADD10868-E8D0-4651-BECF-2D09C1F1DB44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F2D4F90-C4E8-48A4-BC9E-DBEC57885F9E}
+	EndGlobalSection
+EndGlobal
