@@ -1,0 +1,7 @@
+C:\GitRepo\CodeWars\BuildPileOfCubes\BuildPileOfCubes\bin\Debug\BuildPileOfCubes.exe.config
+C:\GitRepo\CodeWars\BuildPileOfCubes\BuildPileOfCubes\bin\Debug\BuildPileOfCubes.exe
+C:\GitRepo\CodeWars\BuildPileOfCubes\BuildPileOfCubes\bin\Debug\BuildPileOfCubes.pdb
+C:\GitRepo\CodeWars\BuildPileOfCubes\BuildPileOfCubes\obj\Debug\BuildPileOfCubes.csprojResolveAssemblyReference.cache
+C:\GitRepo\CodeWars\BuildPileOfCubes\BuildPileOfCubes\obj\Debug\BuildPileOfCubes.csproj.CoreCompileInputs.cache
+C:\GitRepo\CodeWars\BuildPileOfCubes\BuildPileOfCubes\obj\Debug\BuildPileOfCubes.exe
+C:\GitRepo\CodeWars\BuildPileOfCubes\BuildPileOfCubes\obj\Debug\BuildPileOfCubes.pdb

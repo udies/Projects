@@ -10,15 +10,13 @@ namespace BuildPileOfCubes
     {
         static void Main(string[] args)
         {
-            long number = Console.Read();
-
-            long m = findNb(number);
+            long m = findNb((long)1071225);
             Console.WriteLine(m);
             Console.ReadKey();
         }
 
         /*
-         * Takes a long m, which represents the volume of a cube and finds the sum of n^3 + (n-1)^3 down to 1^3 and returns the number of times it has been completed.
+         * Takes a long m, which represents the volume of a cube and findes the sum of n^3 + (n-1)^3 down to 1^3 and returns the number of times it has been completed.
          */
 
         public static long findNb(long m)
