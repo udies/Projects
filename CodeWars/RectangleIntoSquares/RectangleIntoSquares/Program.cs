@@ -21,62 +21,39 @@ namespace RectangleIntoSquares
         }
         public static List<int> sqInRect(int lng, int wdth)
         {
-            int size = 0;
-            int rectangleSize = lng * wdth;
-            bool isFound = false;
-            int increment = 1;
-            int i = 0;
             List<int> intArray = new List<int>();
+            int area = lng * wdth;
+            int decrement = (int)Math.Ceiling(Math.Sqrt(area));
 
-            while (!isFound)
+            for (int i = decrement; i > 0; i--)
             {
-                if (lng < wdth && increment != 0)
+                if (lng == wdth)
                 {
-                    increment = lng - i;
-                    if (size < rectangleSize)
-                    {
-                        size += (int)Math.Pow(increment, 2);
-                        intArray.Add(increment);
-                        increment--;
-                        i++;
-                    }
-                    else if (size == rectangleSize)
-                    {
-                        isFound = true;
-                    }
-                    else
-                    {
-                        increment--;
-
-                    }
-
+                    return null;
                 }
-                else if (wdth < lng)
+
+                if (area - Math.Pow(i, 2) > 0)
                 {
-                    increment = wdth - i;
-                    if (size < rectangleSize)
-                    {
-                        size += (int)Math.Pow(increment, 2);
-                        intArray.Add(increment);
-                        increment--;
-                        i++;
-                    }
-                    else if (size == rectangleSize)
-                    {
-                        isFound = true;
-                    }
-                    else
-                    {
-                        increment--;
-                    }
+                    area -= (int)Math.Pow(i, 2);
+                    intArray.Add(i);
                 }
+                else if (area - Math.Pow(i, 2) == 0)
+                {
+                    return intArray;
+                }
+                if (area == 1)
+                {
+                    area -= 1;
+                    intArray.Add(1);
+                }
+
             }
             return intArray;
         }
-    
 
 
 
 
-}
+
+    }
 }
